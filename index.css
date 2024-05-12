@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: 	#FFB6C1;
+}
+
+section {
+    max-width: 600px;
+    margin: 50px auto;
+    background-color: #FFFFE0;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.box {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.box h3 {
+    color: #333;
+}
+
+.btn {
+    display: flex;
+    justify-content: space-between;
+}
+
+.btn .pendaftaran {
+    background-color: 	#E9967A;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 9px;
+    text-decoration: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+
+
+.btn .pendaftaran a {
+    text-decoration: none;
+    color: #fff;
+}
